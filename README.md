@@ -1,18 +1,22 @@
-Overview
-This project is a Java implementation of the classic arcade game PacMan. It features basic gameplay mechanics, including moving PacMan, avoiding ghosts, collecting food, and handling collisions. The game includes:
+Overview:
+This project is a simple Pac-Man game developed in Java using the Swing library. The game involves controlling Pac-Man to eat food, cherries, and power pellets while avoiding ghosts. When Pac-Man eats a power pellet, the ghosts become vulnerable for a short duration. The goal is to collect all the food and cherries to complete the level while maintaining lives.
 
-- A tile-based map.
-- Multiple ghost characters with random movement.
-- Lives and score tracking.
-- A restart feature upon game over.
+Features:
 
-Features
+- Pac-Man Movement: Navigate Pac-Man through the maze using arrow keys.
+- Ghost Behavior: Ghosts move randomly and can collide with walls.
+- Food & Cherries: Pac-Man can collect food and cherries to increase the score.
+- Power Pellets: Eating a power pellet makes the ghosts vulnerable for 10 seconds.
+- Lives: Pac-Man has 3 lives. The game ends when all lives are lost.
+- Game Over Screen: Displays the final score and a restart option.
+- Score Tracking: Shows the current score and remaining lives on the screen.
+- Wrap-around Movement: Pac-Man can move through the edges of the maze.
+- Pause: Press P to pause or resume the game.
 
-- Tile-Based Gameplay: A grid-based map where PacMan can navigate and collect food.
-- Ghost: Ghosts move randomly, changing direction upon collision with walls.
-- Collision Detection: Handles collisions with walls, ghosts, and food.
-- Score and Lives Tracking: Displays score and remaining lives.
-- Game Restart: Ability to restart the game after losing all lives.
+Controls:
+
+- Arrow Keys: Move Pac-Man in the desired direction.
+- P Key: Pause or resume the game.
 
 Prerequisites:
 
